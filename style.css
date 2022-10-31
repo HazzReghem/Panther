@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 0px;
 }
 
 .bloc-md {
@@ -647,11 +647,25 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn
+{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.row > h2 {
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -700,9 +714,12 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    /* max-width: 400px; */
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
 }
+
 
 h2 {
     font-size: 22px;
@@ -771,15 +788,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #8B400E;
+    color: white;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #8B400E;
     color: #FFFFFF!important;
 }
 
@@ -807,6 +825,14 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
+}
+
+.row > li {
+    color: white;
+}
+
+.col-sm-3 {
+    margin-right: 50px;
 }
 
 .bg-dots-bg {
