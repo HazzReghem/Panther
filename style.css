@@ -362,6 +362,11 @@ a:hover {
     z-index: 2;
 }
 
+.col-sm-4 > ul {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -657,9 +662,14 @@ label,
 a {
     color: white;
 }
+
 a:hover {
     text-decoration: underline;
     color: white;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .row > h2 {
@@ -691,7 +701,7 @@ a:hover {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -718,6 +728,7 @@ p {
     margin: 20px 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -788,22 +799,27 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #8B400E;
-    color: white;
+    background-color: #F3976C;
+    color: #3C3C3C;
 }
 
 .tc-white {
+    color: #F3976C!important;
+}
+
+#bloc-5-cta h2 {
     color: white!important;
+    text-shadow: 0 0 10px black;
 }
 
 .btn-atomic-tangerine {
-    background: #8B400E;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #3C3C3C!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #3C3C3C!important;
 }
 
 .ltc-white {
@@ -832,7 +848,7 @@ h4 {
 }
 
 .col-sm-3 {
-    margin-right: 50px;
+    margin-right: auto;
 }
 
 .bg-dots-bg {
@@ -874,13 +890,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1052,12 +1068,21 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .citation img {
+        width: 100%;
+        max-width: 565px;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .citation img {
+        width: 100%;
     }
 }
 
