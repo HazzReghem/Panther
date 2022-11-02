@@ -812,6 +812,21 @@ h4 {
     text-shadow: 0 0 10px black;
 }
 
+#bloc-3-what-i-do h2 {
+    text-shadow: 0 0 10px black;
+}
+
+blockquote p {
+    font-style: italic;
+    font-size: 18px!important;
+    color: black!important;
+}
+
+blockquote .citation {
+    font-size: 110%;
+    color: #7d7c7c;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #3C3C3C!important;
