@@ -4849,8 +4849,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .nav>li>a:focus,
 .nav>li>a:hover {
-    text-decoration: none;
-    background-color: #eee
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #F3976C;
+    background-color: #eee;
 }
 
 .nav>li.disabled>a {
