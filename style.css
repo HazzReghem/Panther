@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .d-bloc button:hover {
@@ -285,6 +285,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    text-shadow: black 0 0 10px;
 }
 
 .navbar {
@@ -809,7 +810,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #BF5837!important;
 }
 
 .black {
